@@ -1,7 +1,7 @@
 pipeline{
   agent any
   stages{
-    stage{
+    stage('only-stage'){
       steps{
         helloWorld(name: "Ship", day: "Tuesday")
       }
