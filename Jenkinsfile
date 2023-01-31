@@ -1,1 +1,9 @@
-helloWorld(name: "Ship", day: "Tuesday")
+pipeline{
+  stages{
+    stage{
+      steps{
+        helloWorld(name: "Ship", day: "Tuesday")
+      }
+    }
+  }
+}
